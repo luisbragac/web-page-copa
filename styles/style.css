@@ -3,8 +3,8 @@
     padding: 0px;
 }
 
-body{
-    background-color: #F8F9FA;
+body {
+    background-color: red;
     min-width: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,12 @@ nav {
     width: 100%;
 }
 
-.logo{
+main {
+    display: flex;
+    flex: 1;
+}
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +37,7 @@ nav {
     gap: 20px;
 }
 
-.logo img{
+.logo img {
     margin: 5px;
     width: 10%;
     border-radius: 20px;
@@ -76,3 +81,63 @@ nav {
     font-size: 18px;
     font-weight: 600;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    color: white;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../imagens/hero-img-estadio.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    gap: 20px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.contador{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+#contagem{
+    border: black solid 2px;
+    padding: 30px;
+    border-radius: 20px ;
+    word-break: break-all; 
+    background-color: #F8F9FA; 
+    color: black;
+}
+
+#contagem p{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contagem span{
+    font-size: 16px;
+}
+
