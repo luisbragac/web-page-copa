@@ -8,6 +8,7 @@ body {
     min-width: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -32,7 +33,7 @@ main {
     flex: 1;
 }
 
-section{
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,19 +110,20 @@ section{
     gap: 20px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
 
 .hero-title {
+    font-family: "Montserrat", sans-serif;
     font-size: 56px;
     font-weight: 800;
 }
 
-.contador{
+.contador {
     color: white;
     display: flex;
     align-items: center;
@@ -131,16 +133,16 @@ section{
 }
 
 
-#contagem{
+#contagem {
     border: black solid 2px;
     padding: 30px;
-    border-radius: 20px ;
-    word-break: break-all; 
-    background-color: #F8F9FA; 
+    border-radius: 20px;
+    word-break: break-all;
+    background-color: #F8F9FA;
     color: black;
 }
 
-#contagem p{
+#contagem p {
     font-size: 22px;
     display: flex;
     align-items: center;
@@ -148,11 +150,11 @@ section{
     flex-direction: column;
 }
 
-#contagem span{
+#contagem span {
     font-size: 16px;
 }
 
-.partidas-destaque{
+.partidas-destaque {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -161,7 +163,8 @@ section{
     margin-top: 20px;
 }
 
-.partidas-destaque h2{
+.partidas-destaque h2 {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -169,7 +172,7 @@ section{
     width: 100%;
 }
 
-.card{
+.card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,7 +182,7 @@ section{
     margin: 10px;
 }
 
-.times{
+.times {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,36 +191,36 @@ section{
     width: 100%;
 }
 
-.times p{
+.times p {
     font-size: 40px;
 }
 
-.bandeiras img{
+.bandeiras img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.infos{
+.infos {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     gap: 5px;
 }
 
-.infos p{
+.infos p {
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 5px;
 }
 
-.comprar{
+.comprar {
     padding: 30px;
 }
 
-.comprar a{
+.comprar a {
     padding: 10px 80px;
     border-radius: 5px;
 }
