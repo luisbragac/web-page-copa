@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F8F9FA;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B1F3A;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 20px;
+}
+
+.logo img{
+    margin: 5px;
+    width: 10%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo a {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    word-break: break-all;
+}
+
+.comprar-ingresso-botao {
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #FFC300;
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    gap: 40px;
+}
+
+.nav-list {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
