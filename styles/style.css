@@ -256,6 +256,29 @@ section {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     width: 100%;
+}
+
+.estadios{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.estadios figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.estadios article{
+    padding-bottom: 30px;
+    border-radius: 5px;
 }
