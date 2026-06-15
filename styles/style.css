@@ -424,3 +424,25 @@ section {
     width: 20%;
     padding: 9px;
 }
+
+footer{
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: #0B1F3A;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topicos ul{
+    list-style: none;
+}
+
+.topicos a{
+    text-decoration: none;
+    color: white;
+}
