@@ -361,3 +361,22 @@ section {
 .estadios-loc iframe{
     margin-top: 20px;
 }
+
+.faq{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.faq details{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0px;
+    background-color: #F8F9FA;
+    width: 100%;
+}
