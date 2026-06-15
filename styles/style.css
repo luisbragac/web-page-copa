@@ -380,3 +380,47 @@ section {
     background-color: #F8F9FA;
     width: 100%;
 }
+
+.receba-novidades{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.body-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.receba-novidades form{
+    display: flex;
+    width: 70%;
+    gap: 15px;
+}
+
+.receba-novidades form label{
+    display: none;
+}
+
+.receba-novidades form input{
+    padding: 12px;
+    width: 70%;
+}
+
+.receba-novidades form button{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #212529;
+    width: 20%;
+    padding: 9px;
+}
