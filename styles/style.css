@@ -325,3 +325,29 @@ section {
 .card-body ul{
     height: 76.8px;
 }
+
+.comprar-conosco{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.motivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.motivos img{
+    width: 10%;
+    padding-right: 20px;
+}
+
+.titulo-motivo{
+    display: flex;
+}
