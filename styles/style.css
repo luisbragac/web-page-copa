@@ -351,3 +351,13 @@ section {
 .titulo-motivo{
     display: flex;
 }
+
+.estadios-loc{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.estadios-loc iframe{
+    margin-top: 20px;
+}
